@@ -1,0 +1,230 @@
+
+*{box-sizing: border-box;
+padding:0 ;
+margin: 0;}
+
+#sectionone{height: 100vh;
+background-color: rgba(39, 40, 51, 1);
+padding: 20px 30px;
+position: relative;
+}
+p{
+    color: white;
+    padding: 10px;
+}
+h1{color: white; padding-bottom: 20px;
+font-size: 30px;}
+.levdel{float: left; padding: 0;}
+.desendel{float: right;}
+.glaventekst{text-align: center;
+transform: translate(-50%);
+left: 50%;
+top: 45%;
+position: absolute;
+
+
+}
+
+.fa-chevron-down{display: inline;
+    left: 50%;
+    bottom: 2%;
+    color: white;
+    position: absolute;
+    font-size: 25px;
+}
+a{text-decoration: none;
+color: white;padding: 0px 10px;}
+.singupbutton{
+    border: 2px solid red;
+    background-color: red;
+    border-radius: 5px;
+    padding: 5px;
+}
+#sectiontwo{
+    background-image: url(picture1.jpg);
+    height: 90vh;
+    background-attachment:fixed ;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+        background-size: cover;
+}
+.wrapprvdel{
+    background-color:rgba(39, 40, 51, .85) ;
+    border-top: 4px solid #e44c65;
+    bottom: 0;
+    position: absolute;
+    width: 100%; 
+    height: 40vh;  
+}
+.levtekst{
+    width: 33%;
+    padding: 70px 30px 10px 30px;
+    float: left;
+}
+.sredentekst {
+    width: 33%;
+    padding: 70px 30px 10px 30px;
+    float: left;
+}
+.desentekst {
+    width: 33%;
+    padding: 70px 30px 10px 30px;
+    float: left;
+}
+#sectionthree {
+    background-image: url(picture2.jpeg);
+    height: 90vh;
+    background-attachment: fixed;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-y:center;
+   
+
+}
+.wrappervtordel{background-color: rgba(39, 40, 51, .85);
+    border-left: 4px solid rgb(93, 93, 238);
+    
+    position: absolute;
+    width: 35%;
+    height: 90vh;
+    right: 0;
+    padding: 95px 55px;
+}
+.learnmorebutton{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 15px;
+}
+#sectionfour {
+    background-image: url(picture3.jpg);
+    height: 90vh;
+    background-attachment: fixed;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+
+
+}
+
+.wrappertretdel {
+    background-color: rgba(39, 40, 51, .85);
+    border-right: 4px solid rgb(45, 212, 81);
+    
+    position: absolute;
+    width: 35%;
+    height: 90vh;
+    left: 0;
+    padding: 95px 55px;
+}
+
+.learnmorebutton {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 15px;
+}
+.sectionfive{
+    background-color:rgba(39, 40, 51, 1) ;
+    color: white;
+    text-align: center;
+    height: 30vh;
+    position: relative;
+    
+}
+.contentsectionfive{transform: translate(-50%);
+    top: 30%;
+    left: 50%;
+position: absolute;}
+hr{width: 75%;
+border: 2px solid #e44c65;
+text-align: center;}
+
+
+#sectionfive{background-color: rgba(39, 40, 51, 1);
+position: relative;}
+
+.gridcontainer::after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+
+
+.card {
+    float: left;
+    width: 33.333%;
+}
+
+.card-inner {
+    
+    display: block;
+}
+.cardcontent{text-align:center ;
+    margin-bottom: 100px;
+}
+.circle{border: 2px solid rgba(255, 255, 255, .1);
+border-radius: 50px;
+padding: 20px;
+background-color: rgba(255, 255, 255, .1);
+font-size: 25px;
+color:white;}
+h3{color: white;}
+.buttonthree{
+    padding: 8px 20px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    left: 45%;
+    bottom: 3%;
+    position: absolute;
+}
+#sectionsix{
+    height: 35vh;
+    background-color: #e44c65;
+position: relative;
+}
+.content{left:50%;
+bottom: 35%;
+transform: translate(-50%);
+position: absolute;
+text-align: center;}
+input[type=email]{
+    border:1px solid white;
+    padding:10px 20px;
+    background-color: #e44c65;
+    width: 60%;
+    border-radius: 5px;
+    margin-right: 10px;
+
+}
+input::placeholder{
+
+    color: white;
+}
+.buttonfour{background-color: white;
+    color: #e44c65;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+#sectionseven{
+    height: 30vh;
+    background-color: rgba(39, 40, 51, 1);
+    position: relative;
+}
+.contentsectionseven{position: absolute;
+top: 45%;
+left: 50%;
+transform: translate(-50%);
+text-align: center;}
+.contentsectionseven > a{font-size: 30px;
+    padding: 0px 10px ;
+margin-bottom: 10px;}
