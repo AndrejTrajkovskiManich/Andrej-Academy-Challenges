@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.navigation{
+   background-color:rgb(99, 140, 170);
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+   height: 7vh;
+   gap: 200px;
+}
+.image{
+    height: 40px;
+    width: 40px;
+
+} 
+a{
+    color:white;
+    text-decoration: none;
+
+}
+.navigationbar > a:hover{
+    border-bottom: 1px red solid;
+    color: grey;
+}
+.navigationbar{
+    display: flex;
+    gap: 20px;
+}
+#sectionone{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+    background-color: rgb(99, 140, 170);
+    height: 50vh;
+    
+    
+}
+#sectiontwo{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 10vh;
+   
+    
+}
+
+.macbookicon{background-color: rgb(219, 219, 219);}
+.ipadicon{background-color: rgb(188, 185, 170);}
+.iphoneicon{background-color: rgb(156, 224, 209);}
+.abouticon{background-color: rgb(99, 140, 170);}
+#sectiontwo > div {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.fa-solid{font-size: 40px;
+    color: black;
+}
+#sectionthree{
+    display: flex;
+    
+    
+}
+.ipad{
+background-color: rgb(183, 206, 214);
+display: flex;
+align-items: center;
+justify-content: center;
+height: 350px;
+
+
+}
+.img{
+    height: 250px;
+}
+.iphonetext{
+    background-color:rgb(188, 185, 170);
+    height: 350px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 30px;
+
+gap: 40px;
+}
+.macbook{
+    background-color: rgb(183, 206, 214);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 350px;
+       
+}
+.ipadtext{
+    background-color: rgb(154, 167, 184);
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+       
+        gap: 40px;
+        
+}
+.iphone{background-color: rgb(183, 206, 214);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+}
+    .macbooktext{background-color: rgb(240, 158, 132);
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+
+gap: 40px;}
+        .blue{background-color: rgb(99, 140, 170);
+        height: 50px;
+        }
+#sectionfour{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 120px;
+    
+}
+.team{background-color:rgb(154, 167, 184) ;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px;
+gap: 10px;}
+.Sallery{
+    background-color: rgb(188, 185, 170);
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        gap: 10px;
+}
+.Earning{background-color: rgb(156, 224, 209);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+gap: 10px;}
+    
+    #sectionfive{
+        height: 150px;
+        background-color: rgb(99, 140, 170);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 400px;
+    }
+    .fa-brands{
+        font-size: 40px;
+        color: white;
+
+    }
+    footer{
+        height: 50px;
+        background-color: rgb(81, 67, 84);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    p{color: white;}
+
+    .sb{font-size: 25px;}
+
+    .fleks{
+        
+        flex-basis: 50%;
+    }
