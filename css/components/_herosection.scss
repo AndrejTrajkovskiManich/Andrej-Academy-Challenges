@@ -1,0 +1,54 @@
+@use "../abstracts/variables" as var;
+@use "../abstracts/mixins" as mix;
+@use "sass:math";
+
+#HeroSection {
+  background: rgba(0, 0, 0, 0.5) url(../images/hero.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  color: white;
+  .herotext {
+    @include mix.flex;
+    height: calc(100vh - 60px);
+    h1 {
+      text-align: center;
+    }
+    p {
+      font-size: 1.5rem;
+    }
+    a {
+      @include mix.button;
+    }
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    @include mix.mobile-l-styles {
+      display: flex;
+      flex-direction: column;
+      padding-top: 10px;
+    }
+    .logo {
+      font-size: 30px;
+      @include mix.a;
+    }
+
+    ul {
+      padding: 0;
+      list-style: none;
+      display: flex;
+      margin-bottom: 0px;
+
+      a {
+        @include mix.a;
+        &:not(:last-child) {
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+}

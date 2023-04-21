@@ -1,0 +1,23 @@
+@use "../abstracts/variables" as var;
+@use "../abstracts/mixins" as mix;
+@use "sass:math";
+
+footer {
+  padding: 70px 0px;
+  background-color: var.$background-color-footer;
+  @include mix.flex;
+  color: white;
+  p {
+    margin: 0;
+    text-align: center;
+  }
+  .icons {
+    margin-bottom: 20px;
+    & :not(:last-child) {
+      margin-right: 10px;
+    }
+    i {
+      font-size: 30px;
+    }
+  }
+}

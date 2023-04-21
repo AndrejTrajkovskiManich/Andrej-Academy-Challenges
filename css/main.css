@@ -1,0 +1,361 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul {
+  margin-top: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 0.9375rem;
+  line-height: 1;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 3.75rem;
+}
+@media (max-width: 425px) {
+  h1 {
+    font-size: 2.75rem;
+  }
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+@media (max-width: 425px) {
+  h2 {
+    font-size: 1.5625rem;
+  }
+}
+
+h3 {
+  font-size: 1.5625rem;
+}
+@media (max-width: 425px) {
+  h3 {
+    font-size: 1.25rem;
+  }
+}
+
+#Services, #work {
+  padding-top: 5.625rem;
+  padding-bottom: 5.625rem;
+}
+
+#HeroSection {
+  background: rgba(0, 0, 0, 0.5) url(../images/hero.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  color: white;
+}
+#HeroSection .herotext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 60px);
+}
+#HeroSection .herotext h1 {
+  text-align: center;
+}
+#HeroSection .herotext p {
+  font-size: 1.5rem;
+}
+#HeroSection .herotext a {
+  text-decoration: none;
+  color: white;
+  background-color: #2590e5;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 5px;
+  display: inline-block;
+}
+#HeroSection header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
+@media (max-width: 425px) {
+  #HeroSection header {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+}
+#HeroSection header .logo {
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+}
+#HeroSection header ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  margin-bottom: 0px;
+}
+#HeroSection header ul a {
+  text-decoration: none;
+  color: white;
+}
+#HeroSection header ul a:not(:last-child) {
+  margin-right: 20px;
+}
+
+#work .wrapper {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 60px;
+}
+#work .wrapper h2 {
+  padding-bottom: 20px;
+}
+#work .wrapper p {
+  padding-bottom: 10px;
+}
+#work .wrapper hr {
+  width: 30%;
+  height: 4px;
+  background-color: #2590e5;
+}
+@media (max-width: 768px) {
+  #work .wrapper {
+    width: 80%;
+  }
+  #work .wrapper hr {
+    width: 20%;
+  }
+}
+#work .imgS1 {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+}
+@media (max-width: 768px) {
+  #work .imgS1 {
+    flex-wrap: wrap;
+  }
+}
+#work .imgS1 .shorter {
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  width: 40%;
+  margin: 0px 20px 20px 0px;
+}
+@media (max-width: 768px) {
+  #work .imgS1 .shorter {
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 30px;
+    height: 400px;
+    margin-right: 0px;
+  }
+}
+#work .imgS1 .longer {
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  width: 60%;
+}
+@media (max-width: 768px) {
+  #work .imgS1 .longer {
+    width: 100%;
+    margin-bottom: 30px;
+    height: 400px;
+  }
+}
+#work .imgS2 {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+}
+@media (max-width: 768px) {
+  #work .imgS2 {
+    flex-wrap: wrap;
+  }
+}
+#work .imgS2 .shorter {
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  width: 40%;
+}
+@media (max-width: 768px) {
+  #work .imgS2 .shorter {
+    width: 100%;
+    margin-bottom: 30px;
+    height: 400px;
+    margin: 0;
+  }
+}
+#work .imgS2 .longer {
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  margin-right: 20px;
+  width: 60%;
+}
+@media (max-width: 768px) {
+  #work .imgS2 .longer {
+    width: 100%;
+    margin-bottom: 30px;
+    height: 400px;
+    margin-right: 0px;
+  }
+}
+
+#Services {
+  background-color: #f7f7f7;
+}
+#Services .wrapper {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 60px;
+}
+#Services .wrapper h2 {
+  padding-bottom: 20px;
+}
+#Services .wrapper p {
+  padding-bottom: 10px;
+}
+#Services .wrapper hr {
+  width: 30%;
+  height: 4px;
+  background-color: #2590e5;
+}
+@media (max-width: 768px) {
+  #Services .wrapper {
+    width: 80%;
+  }
+  #Services .wrapper hr {
+    width: 20%;
+  }
+}
+#Services .gridwrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 0 100px 150px 100px;
+  gap: 50px;
+  flex-wrap: nowrap;
+}
+@media (max-width: 768px) {
+  #Services .gridwrapper {
+    flex-wrap: wrap;
+    padding: 0px 0px 150px 0px;
+    justify-content: center;
+  }
+}
+#Services .gridwrapper .iconwrapper {
+  width: 33.3%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#Services .gridwrapper .iconwrapper i {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #2590e5;
+}
+@media (max-width: 768px) {
+  #Services .gridwrapper .iconwrapper {
+    width: 70%;
+    align-items: center;
+  }
+}
+#Services .Email {
+  text-align: center;
+}
+@media (max-width: 768px) {
+  #Services .Email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+#Services .Email input {
+  width: 30%;
+  height: 40px;
+}
+@media (max-width: 768px) {
+  #Services .Email input {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}
+#Services .Email a {
+  text-decoration: none;
+  color: white;
+  background-color: #2590e5;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+footer {
+  padding: 70px 0px;
+  background-color: #414a4f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+footer p {
+  margin: 0;
+  text-align: center;
+}
+footer .icons {
+  margin-bottom: 20px;
+}
+footer .icons :not(:last-child) {
+  margin-right: 10px;
+}
+footer .icons i {
+  font-size: 30px;
+}/*# sourceMappingURL=main.css.map */
