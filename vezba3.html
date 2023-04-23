@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const number = 13;
+      const number2 = 15;
+      const number3 = 20;
+
+      let smallest = number;
+      if (number2 < smallest) {
+        smallest = number2;
+      }
+      if (number3 < smallest) {
+        smallest = number3;
+      }
+      let largest = number;
+      if (number2 > largest) {
+        largest = number2;
+      }
+      if (number3 > largest) {
+        largest = number3;
+      }
+      let isSmallestPrime = true;
+      if (smallest === 1) {
+        isSmallestPrime = false;
+      } else {
+        for (let i = 2; i < smallest; i++) {
+          if (smallest % i === 0) {
+            isSmallestPrime = false;
+            break;
+          }
+        }
+      }
+      let isLargestPrime = true;
+      if (largest === 1) {
+        isLargestPrime = false;
+      } else {
+        for (let i = 2; i < largest; i++) {
+          if (largest % i === 0) {
+            isLargestPrime = false;
+            break;
+          }
+        }
+      }
+      console.log(`Smallest - ${smallest}, Largest - ${largest}`);
+      console.log(
+        `The smallest number ${smallest} is ${
+          isSmallestPrime ? "" : "not "
+        }prime`
+      );
+      console.log(
+        `The largest number ${largest} is ${isLargestPrime ? "" : "not "}prime`
+      );
+    </script>
+  </body>
+</html>
