@@ -1,0 +1,81 @@
+.section-3 {
+    background-image: url(./images/lights.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+}
+
+
+.navlink {
+    border-left: 2px solid transparent;
+}
+
+.absolute-text {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.navlink:hover
+ {
+    border-left: 2px solid #fff;
+    color: #fff !important;
+}
+
+.border-active {
+    border-left: 2px solid #fff;
+    color: #fff !important;
+}
+
+.bg-aboutus {
+    background-image: url(./images/image1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    height: 70vh;
+}
+
+.section-6 {
+    background-image:linear-gradient( rgba(65, 65, 65, 0.9), rgba(65, 65, 65, 0.9) ), url(./images/media.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.transform {
+    width: 320px;
+    transform: translateY(-40px);
+}
+
+.height-75 {
+    height: 75vh;
+}
+
+.btn-width {
+    width: 6%;
+}
+
+.btn-size {
+    font-size: 28px;
+}
+
+.bg-black {
+    background-color: rgb(23, 23, 26);
+}
+
+.blue {
+    background-color: #2844ff;
+}
+
+.object-fit {
+    object-fit: cover;
+}
+
+.price {
+    font-size: 20px;
+}
+
+
+
